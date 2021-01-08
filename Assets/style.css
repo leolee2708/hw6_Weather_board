@@ -1,0 +1,34 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 60px;
+}
+.navbar {
+    font-size: 50px;
+}
+
+
+.search-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.city-name {
+    font-size: 36px;
+}
+
+.forecast-date {
+    font-size: 18px;
+}
+
+  
+  
+.sticky-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+  }
