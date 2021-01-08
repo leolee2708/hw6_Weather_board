@@ -95,7 +95,7 @@ $(document).ready(function() {
         } else if (uvi <= 11) {
           $('#uvi-badge').css('background-color', 'red');
         } else {
-          $('#uvi-badge').css('background-color', 'purple');
+          $('#uvi-badge').css('background-color', 'blueviolet');
         }
       });
 
