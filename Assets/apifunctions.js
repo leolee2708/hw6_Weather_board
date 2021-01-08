@@ -70,7 +70,10 @@ $(document).ready(function() {
       $('#humidity').html('<b>Humidity: </b>' + humidity + '%');
       $('#wind-speed').html('<b>Wind Speed: </b>' + windSpeed + ' MPH');
 
-      
+      var lat = response.coord.lat;
+      var lon = response.coord.lon;
+      var uviQueryURL = uviAPI + lat + '&lon=' + lon + APIkey;
+
       $.ajax({
         url: uviQueryURL,
         method: 'GET'
@@ -224,4 +227,4 @@ $(document).ready(function() {
       getWeather(cityNameHistory);
     });
   }
-});
+}); 
